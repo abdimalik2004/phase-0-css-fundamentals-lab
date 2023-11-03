@@ -12,23 +12,28 @@ img {
   align-items: center;
 }
 
-a {
+nav>a {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
   background-color: gray;
 }
 
-figcaption#featured-property {
+figure figcaption {
   text-align: center;
 }
 
-p#featured-property {
+#featured-property {
   width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#featured-property p {
   text-align: center;
 }
 
-div#details {
+#details div {
   float: left;
 }
 
